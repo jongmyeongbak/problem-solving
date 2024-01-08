@@ -1,6 +1,5 @@
 // [문제 링크]: https://school.programmers.co.kr/learn/courses/30/lessons/131537
 
--- 코드를 입력하세요
 SELECT LEFT(SALES_DATE, 10) AS SALES_DATE, PRODUCT_ID, USER_ID, SALES_AMOUNT
 FROM (
     SELECT SALES_DATE, PRODUCT_ID, USER_ID, SALES_AMOUNT
