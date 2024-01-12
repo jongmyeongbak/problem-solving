@@ -3,10 +3,8 @@
 class Solution {
     public int solution(int n) {
         int x = 1;
-        for (; x < n; x++) {
-            if (n % x == 1) {
-                break;
-            }
+        while (n % x != 1) {
+            x++;
         }
         return x;
     }
